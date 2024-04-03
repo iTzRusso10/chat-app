@@ -38,6 +38,7 @@ export default function Home() {
     <div className="background">
       <div className="shadow">
         <ChatEngine
+          // @ts-ignore
           height="calc(100vh - 212px)"
           projectID="c011b41c-dfa4-44b3-a96f-f3eea072fe7e"
           userName={username}
