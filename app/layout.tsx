@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" style={{ height: "100vh" }}>
+    <html lang="en">
       <body className={inter.className}>
         <ContextProvider>{children}</ContextProvider>
       </body>

@@ -1,20 +1,21 @@
 .shadow {
+  border-radius: 20px;
   box-shadow: 0 2px 15px rgb(0 0 0 / 68%);
 }
 
 /* Chat List */
 .ce-wrapper {
-  background-color: #4a5162 !important;
+  background-color: white;
 }
 
 .ce-chats-container {
-  background-color: #4a5162 !important;
-  border-radius: 0px !important;
+  background-color: white;
+  border-radius: 20px !important;
 }
 
 .ce-chat-form-container {
-  background-color: #4a5162 !important;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .ce-chat-card {
@@ -30,11 +31,11 @@
 }
 
 .ce-chat-title-text {
-  color: white !important;
+  color: black;
 }
 
 .ce-chat-subtitle-text {
-  color: hsla(0, 0%, 100%, 0.568) !important;
+  color: black;
 }
 
 .ce-chat-unread-dot {
@@ -44,12 +45,12 @@
 /* Chat Feed */
 
 .ce-chat-title-container {
-  background-color: #4a5162 !important;
+  background-color: white;
   border-radius: 0px !important;
 }
 
 .ce-chat-feed-container {
-  background-color: #4a5162 !important;
+  background-color: white;
 }
 
 .ce-primary-button {
@@ -73,7 +74,7 @@
 }
 
 .ce-their-message-timestamp {
-  color: hsla(0, 0%, 100%, 0.568) !important;
+  color: white !important;
 }
 
 #ce-send-message-button {
@@ -86,7 +87,7 @@
 }
 
 .ce-social-message-form {
-  background-color: #4a5162 !important;
+  background-color: white;
 }
 
 .ce-message-input-form {
@@ -98,15 +99,15 @@
   position: relative !important;
   top: 4px !important;
   border-width: 0px !important;
-  background-color: #4a5162 !important;
-  color: white !important;
+  background-color: white;
+  color: black;
 }
 #msg-textarea::placeholder {
-  color: hsla(0, 0%, 100%, 0.568) !important;
+  color: black !important;
 }
 
 #ce-upload-document-icon {
-  color: white !important;
+  color: #9a97fc !important;
 }
 
 .ce-feed-container-bottom {
@@ -114,11 +115,11 @@
 }
 
 .ce-message-images-row {
-  background-color: #4a5162 !important;
+  background-color: white;
 }
 
 .ce-their-message-sender {
-  color: hsla(0, 0%, 100%, 0.568) !important;
+  color: black !important;
 }
 
 .ce-their-message-bubble {
@@ -129,27 +130,29 @@
 /* Chat Settings */
 
 .ce-settings {
-  background-color: #4a5162 !important;
+  background-color: white;
   border-radius: 0px !important;
 }
 
 .ce-chat-title-form .ce-text-input {
-  background-color: #4a5162;
+  background-color: #726dfe;
   color: white;
 }
 
 .ce-section-title-container {
-  background-color: #4a5162 !important;
+  background-color: #726dfe !important;
   color: white;
+  border-radius: 20px;
 }
 
 #ce-options-drop-down {
-  background-color: #4a5162 !important;
+  background-color: #726dfe !important;
+  border-radius: 20px;
   color: white;
 }
 
 .ce-person-text {
-  color: hsla(0, 0%, 100%, 0.568);
+  color: black;
 }
 
 .ce-danger-button {
@@ -161,4 +164,10 @@
 .ce-autocomplete-close {
   background-color: white !important;
   border-radius: 0px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .ce-chat-feed-column {
+    height: 100vh !important;
+  }
 }

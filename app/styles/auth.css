@@ -62,3 +62,11 @@
 .submit-button::hover {
   background-color: #938ffe;
 }
+
+@media screen and (max-width: 768px) {
+  .background {
+    padding: 0;
+    width: auto;
+    height: 100%;
+  }
+}
