@@ -167,7 +167,17 @@
 }
 
 @media screen and (max-width: 768px) {
+  .ce-chat-title-container {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+  }
+  .ce-social-message-form {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+  }
   .ce-chat-feed-column {
-    height: 100vh !important;
+    height: 100% !important;
   }
 }
